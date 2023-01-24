@@ -1,0 +1,440 @@
+* {
+  font-family: "Jost", sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.gridbox {
+  grid-template-areas:
+    "header header header header"
+    "section section section section"
+    "footer footer footer footer ";
+}
+.backgroundpicsi {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  background-image: url("pagepics1/Furniturhomepic.jpg");
+}
+.headerbox {
+  grid-area: header;
+  height: 10vh;
+  width: 98.7vw;
+  background-color: hsl(20deg 40% 30% / 50%);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  position: sticky;
+}
+.navboxleft {
+  display: inline-block;
+  position: relative;
+  left: 30px;
+  top: -23px;
+}
+.logobox img {
+  height: 100px;
+  width: 100px;
+}
+.navboxcenter {
+  display: inline-block;
+  position: relative;
+  left: 232px;
+  top: -65px;
+  width: 50vw;
+}
+.navboxright {
+  display: inline-block;
+  position: relative;
+  left: 274px;
+  width: 20vw;
+  top: -65px;
+}
+.connectionbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.connectbox a {
+  margin: 0.8em;
+  padding: 0.6em;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+}
+#navbar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navlinks {
+  text-decoration: none;
+  margin: 0.8em;
+  color: white;
+  padding: 0.6em;
+  border-radius: 20px;
+}
+.navlinks:hover {
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+  background-color: rgb(255 239 231 / 75%);
+  color: hsl(20deg 100% 9%);
+}
+.connectbox a:hover {
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+  background-color: rgb(255 239 231 / 75%);
+  color: hsl(20deg 100% 9%);
+}
+.sectionbox {
+  grid-area: section;
+}
+.slangbox {
+  position: relative;
+  text-align: center;
+  top: 11rem;
+  color: white;
+  font-size: 2rem;
+  background-color: hsl(0deg 0% 0% / 50%);
+  backdrop-filter: blur(2px);
+  padding: 1em;
+}
+#sectionbox1 {
+  position: relative;
+  height: 75vh;
+  top: 21rem;
+}
+.aboutcompany h1 {
+  margin-top: 4.75rem;
+  text-align: center;
+  font-size: 3rem;
+}
+.aboutcompany p {
+  text-align: center;
+  position: relative;
+  padding: auto;
+  padding: 16rem;
+  font-size: 1.5rem;
+  bottom: 15rem;
+}
+.achievementbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 26rem;
+}
+.achievementc {
+  text-align: center;
+  padding: 2rem;
+}
+.achievementc h1 {
+  font-family: "Cinzel", serif;
+  color: #a4873f;
+  font-size: 3.4rem;
+}
+#achievementbox2 {
+  border-style: none none none solid;
+  border-color: #a4873f;
+}
+#achievementbox3 {
+  border-style: none solid none solid;
+  border-color: #a4873f;
+}
+.section1imgcontainer {
+  position: relative;
+  bottom: 18rem;
+  left: 0rem;
+}
+.section1imgcontainer img {
+  height: 100%;
+  width: 100%;
+}
+#sectionbox2 {
+  position: relative;
+  height: 20vh;
+  top: 55rem;
+}
+.aboutworking h1 {
+  margin-top: 4.75rem;
+  text-align: center;
+  font-size: 3rem;
+}
+.aboutworking p {
+  text-align: center;
+  position: relative;
+  padding: auto;
+  padding: 16rem;
+  font-size: 1.5rem;
+  bottom: 14rem;
+}
+.aboutworkpngs {
+  position: relative;
+  bottom: 25rem;
+  left: 0rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.workpngs img {
+  border: 2px solid black;
+  height: 82.72px;
+  width: 82.72px;
+  position: relative;
+  left: 2.5rem;
+}
+.workpngs h2 {
+  text-align: center;
+  position: relative;
+  top: 0.5rem;
+}
+#callpng img {
+  position: relative;
+  left: 1.2rem;
+}
+#meetingpng img {
+  position: relative;
+  left: 2.75rem;
+}
+#measurement img {
+  position: relative;
+  left: 1.65rem;
+}
+#confirm img {
+  position: relative;
+  left: 1.55rem;
+}
+#satisfied img {
+  position: relative;
+  left: 3.45rem;
+}
+.sectionbox3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  top: 79rem;
+  background-image: url("pagepics1/section3cover.png");
+}
+.sectionbox3texts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0deg 0% 0% / 50%);
+}
+.sectionbox3texts h1 {
+  margin: 1.5rem;
+  width: 27rem;
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+.sectionbox3texts button {
+  border: 0px solid transparent;
+}
+.sectionbox3texts a {
+  width: 18rem;
+  padding: 0.4em;
+  text-align: center;
+  height: 3.5rem;
+  background-color: #a4873f;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+.sectionbox3texts a:hover {
+  color: #a4873f;
+  background-color: #f5e8c7;
+}
+.sectionbox3discussion {
+  height: 50%;
+}
+.sectionbox3discussion h1 {
+  text-align: center;
+  position: relative;
+  top: 4rem;
+  font-size: 2.5rem;
+}
+.sectionbox3discussion p {
+  text-align: center;
+  position: relative;
+  top: 4.4rem;
+  font-size: 1.35rem;
+}
+.formcontainer {
+  position: relative;
+  bottom: 3.4rem;
+}
+.formcontainer input {
+  font-size: 1rem;
+  position: relative;
+  padding: 0.5rem;
+  text-align: center;
+  border-style: none none solid none;
+  border-color: #a4873f;
+  width: 16rem;
+}
+#fname {
+  top: 10rem;
+  left: 31rem;
+}
+#fphone {
+  top: 14rem;
+  left: -1.45rem;
+}
+#femail {
+  top: 18rem;
+  left: 14.9rem;
+}
+#faddress {
+  top: 22rem;
+  left: -17.6rem;
+}
+#fsubmit {
+  position: relative;
+  width: 15rem;
+  height: 3rem;
+  color: white;
+  padding: 0.4rem;
+  top: 24rem;
+  cursor: pointer;
+  font-size: 1.25rem;
+  left: 31.74rem;
+  background-color: #a4873f;
+  border: 0px solid transparent;
+}
+#fsubmit:hover {
+  color: #a4873f;
+  background-color: #f5e8c7;
+}
+.sectionbox4 {
+  position: relative;
+  top: 116rem;
+  height: 100vh;
+}
+.sectionbox4darkimg {
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("pagepics1/darkimgsection4.jpg");
+}
+.sectionbox4texts {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: hsl(0deg 0% 0% / 50%);
+}
+.sectionbox4texts h1 {
+  margin: 1.5rem;
+  width: 27rem;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+#contactusbtn {
+  border: 0px;
+}
+#contactusbtn a {
+  background-color: #a4873f;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  width: 15rem;
+  height: 3rem;
+  padding: 0.4rem;
+  font-size: 1.25rem;
+  border: 0px solid transparent;
+}
+#contactusbtn a:hover {
+  color: #a4873f;
+  background-color: #f5e8c7;
+}
+.sectionbox4partners {
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+  top: 2.5rem;
+}
+.partnerspng {
+  position: relative;
+  bottom: -3rem;
+  left: -2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.partnerspng img {
+  height: 100.72px;
+  width: 100.72px;
+  position: relative;
+  left: 2.5rem;
+}
+.footerbox {
+  grid-area: footer;
+  position: relative;
+  top: 117.5rem;
+  height: 47vh;
+  background-color: black;
+  color: white;
+}
+.footerboxcontainer {
+  height: 45vh;
+  width: 98vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footerconts a {
+  text-decoration: none;
+  color: white;
+}
+#footerlogo img {
+  height: 100px;
+  width: 100px;
+}
+#footerlogo {
+  position: relative;
+  bottom: 4.5rem;
+  right: 4.55rem;
+}
+.footerconts ul {
+  list-style: none;
+}
+.footerconts li {
+  margin: 0.4rem;
+}
+.footerconts h2 {
+  border-style: none none solid none;
+  border-color: #a4873f;
+}
+#footerfollow_us {
+  position: relative;
+  bottom: 1.88rem;
+}
+#footercontact_us {
+  position: relative;
+  bottom: 1.88rem;
+}
+.footerconts a:hover {
+  color: #a4873f;
+}
